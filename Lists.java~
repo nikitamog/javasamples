@@ -1,0 +1,18 @@
+import java.io.*;
+import java.util.*;
+
+public class Lists {
+
+    public static void main(String args[]) {
+	List<Integer> lista = new List<Integer>;
+	lista.add(9);
+	lista.add(8);
+
+	List<Integer> listb = new List<Integer>;
+	listb.add(8);
+	listb.add(7);
+
+	System.out.println(lista);
+	System.out.println(listb);
+    }
+}

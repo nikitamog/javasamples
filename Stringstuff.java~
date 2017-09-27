@@ -1,0 +1,8 @@
+import java.util.*;
+
+public class Stringstuff {
+    public static void main(String[] args) {
+	String a = "blah";
+	System.out.println(a.length());
+    }
+}
