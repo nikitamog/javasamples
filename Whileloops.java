@@ -20,6 +20,19 @@ public class Whileloops {
 	//use method
 	blah(2);
 	blah();
+        System.out.println();
+        
+        int max = 5;
+        
+        for (int i = 1; i <= max; ++i) {
+            for (int j = 0; j < max; ++j) {
+                for (int k = 0; k < j; ++k) {
+                    System.out.print("");
+                }
+                System.out.print(".");
+        }
+            System.out.println();
+        }
     }
 
     public static void blah() {
