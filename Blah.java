@@ -6,7 +6,7 @@ public class Blah {
     public static void main(String[] args) {
 	String a = "a   \n                      b";
 	CharInt jaba = new CharInt(a, b);
-	Scanner blahblah = new Scanner(a) implements garbage;
+	Scanner blahblah = new Scanner(a);
 	while(blahblah.hasNext()) {
 	    System.out.println(blahblah.next());
 	}
